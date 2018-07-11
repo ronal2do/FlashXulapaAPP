@@ -5,20 +5,9 @@ import { Platform } from 'react-native'
 
 import renderer from 'react-test-renderer'
 
-describe('Addition', () => {
+describe('APP', () => {
 
   test('renders correctly', () => {
-    const tree = renderer.create(<App />).toJSON()
-    expect(tree).toMatchSnapshot()
-  });
-
-  test('renders correctly text IOS', () => {
-    Platform.OS = 'ios'
-    const tree = renderer.create(<App />).toJSON()
-    expect(tree).toMatchSnapshot()
-  });
-
-  test('renders correctly text ANDROID', () => {
     const tree = renderer.create(<App />).toJSON()
     expect(tree).toMatchSnapshot()
   });

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1530979727182" clover="3.2.0">
-  <project timestamp="1530979727182" name="All files">
+<coverage generated="1530980073817" clover="3.2.0">
+  <project timestamp="1530980073818" name="All files">
     <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2" elements="11" coveredelements="10" complexity="0" loc="8" ncloc="8" packages="3" files="3" classes="3">
       <package name="FlashXulapaApp">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <file name="App.js" path="/Users/ronal2do/Documents/OPEN/flashtattoo/FlashXulapaApp/App.js">
           <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-          <line num="13" count="1" type="stmt"/>
-          <line num="23" count="3" type="stmt"/>
-          <line num="33" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
         </file>
       </package>
       <package name="FlashXulapaApp.config">
@@ -22,10 +22,10 @@
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <file name="ActionButton.js" path="/Users/ronal2do/Documents/OPEN/flashtattoo/FlashXulapaApp/src/components/ActionButton.js">
           <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-          <line num="12" count="1" type="stmt"/>
-          <line num="13" count="2" type="stmt"/>
-          <line num="20" count="1" type="stmt"/>
-          <line num="25" count="1" type="stmt"/>
+          <line num="12" count="2" type="stmt"/>
+          <line num="13" count="3" type="stmt"/>
+          <line num="20" count="2" type="stmt"/>
+          <line num="25" count="2" type="stmt"/>
         </file>
       </package>
     </metrics>

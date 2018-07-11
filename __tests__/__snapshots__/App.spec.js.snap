@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Addition renders correctly 1`] = `
+exports[`APP renders correctly 1`] = `
 <View
   style={
     Object {
@@ -45,101 +45,30 @@ exports[`Addition renders correctly 1`] = `
     Press Cmd+R to reload,
 Cmd+D or shake for dev menu
   </Text>
-</View>
-`;
-
-exports[`Addition renders correctly text ANDROID 1`] = `
-<View
-  style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "purple",
-      "flex": 1,
-      "justifyContent": "center",
-    }
-  }
->
-  <Text
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "fontSize": 20,
-        "margin": 10,
-        "textAlign": "center",
+        "opacity": 1,
       }
     }
   >
-    Welcome to React Native!
-  </Text>
-  <Text
-    style={
-      Object {
-        "color": "#333333",
-        "marginBottom": 5,
-        "textAlign": "center",
+    <Text
+      style={
+        Object {
+          "color": "white",
+        }
       }
-    }
-  >
-    To get started, edit App.js
-  </Text>
-  <Text
-    style={
-      Object {
-        "color": "#333333",
-        "marginBottom": 5,
-        "textAlign": "center",
-      }
-    }
-  >
-    Press Cmd+R to reload,
-Cmd+D or shake for dev menu
-  </Text>
-</View>
-`;
-
-exports[`Addition renders correctly text IOS 1`] = `
-<View
-  style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "purple",
-      "flex": 1,
-      "justifyContent": "center",
-    }
-  }
->
-  <Text
-    style={
-      Object {
-        "fontSize": 20,
-        "margin": 10,
-        "textAlign": "center",
-      }
-    }
-  >
-    Welcome to React Native!
-  </Text>
-  <Text
-    style={
-      Object {
-        "color": "#333333",
-        "marginBottom": 5,
-        "textAlign": "center",
-      }
-    }
-  >
-    To get started, edit App.js
-  </Text>
-  <Text
-    style={
-      Object {
-        "color": "#333333",
-        "marginBottom": 5,
-        "textAlign": "center",
-      }
-    }
-  >
-    Press Cmd+R to reload,
-Cmd+D or shake for dev menu
-  </Text>
+    >
+      Test
+    </Text>
+  </View>
 </View>
 `;
